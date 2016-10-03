@@ -1,0 +1,44 @@
+{
+  "resources": {
+    "body": [
+      {
+        "type": "script",
+        "src": "app.js"
+      }
+    ]
+  },
+  "options": {
+    "properties": {
+      "app_id": {
+        "title": "App ID",
+        "description": "Enter your Gotcha app ID, available in your dashboard's Settings/Install page",
+        "type": "integer"
+      },
+      "app_code": {
+        "title": "App embed code",
+        "description": "Your app embed code (GOTC-0000xx), available in your Gotcha settings page as well",
+        "type": "string"
+      },
+      "name": {
+        "title": "User's name",
+        "description": "Your logged-in user's name (first or full name)",
+        "type": "string"
+      },
+      "email": {
+        "title": "User's email",
+        "description": "Your logged-in user's email address",
+        "type": "string"
+      },
+      "avatar": {
+        "title": "User's avatar URL (**OPTIONAL)",
+        "description": "The image URL of your user's avatar. Preferably HTTPS.",
+        "type": "string"
+      },
+      "is_premium": {
+        "title": "Is the user premium (**OPTIONAL)",
+        "description": "If you want to mark paying users, you can pass here 1 or 0 to set if the user is a paying / premium users.",
+        "type": "string"
+      }
+    }
+  }
+}
